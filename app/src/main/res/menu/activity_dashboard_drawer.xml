@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Opciones de aves">
+        <menu>
+            <item
+                android:id="@+id/nav_add_species"
+                android:title="Agregar especie" />
+                <!--poner dentro del item para dar estilo la siguiente linea (DA ERROR)
+                android:icon="@drawable/ic_about" -->
+
+            <item
+                android:id="@+id/nav_edit_species"
+                android:title="Editar especie" />
+            <item
+                android:id="@+id/nav_delete_species"
+                android:title="Borrar especie" />
+            <item
+                android:id="@+id/nav_show_species"
+                android:title="Mostrar especies" />
+        </menu>
+    </item>
+
+    <item android:title="Opciones de usuarios">
+        <menu>
+            <item
+                android:id="@+id/nav_reg_user"
+                android:title="Registrar usuario" />
+        </menu>
+    </item>
+    <item android:title="Miscelaneos">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:title="Acerca de...">
+            </item>
+        </menu>
+    </item>
+
+</menu>
